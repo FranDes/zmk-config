@@ -39,7 +39,7 @@
    &kp TAB  &kp Q      &kp W           &kp F       &kp P        &kp B       &kp J    &kp L   &kp U     &kp Y   &kp SEMI &kp EQUAL
    &kp ESC  &hm LGUI A &hm LCTRL R     &hm LSHFT S &hm LALT T   &kp G       &kp H    &hm LALT N   &hm RSHFT E     &hm RCTRL I   &hm RGUI O    &kp APOS
    &kp CAPS &kp Z      &kp X           &kp C       &kp D        &kp V       &kp K    &kp M   &kp COMMA &kp DOT &kp FSLH &kp MINUS
-                       &ht C_MUTE C_PP &kp RET     &lt 1 GRAVE  &kp SPACE &kp BSPC &kp DEL
+                       &th C_MUTE C_PP &kp RET     &lt 1 GRAVE  &kp SPACE &kp BSPC &kp DEL
                         >;
                 };
                 
