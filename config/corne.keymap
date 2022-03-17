@@ -14,6 +14,7 @@
 #define symbol_layer 3
 #define function_layer 4
 #define game_layer 5
+
 / {
     combos {
         compatible = "zmk,combos";
@@ -32,8 +33,8 @@
             key-positions = <1 2 3>;
             bindings = <&kp CAPS>;
         };
-    };
-};
+    }; 
+    
     behaviors {
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
