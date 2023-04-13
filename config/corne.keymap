@@ -50,11 +50,27 @@
     macros {
         ZMK_MACRO(gmail_mail,
             tap-ms = <30>;
-            bindings = <&kp D &kp E &kp S &kp A &kp N &kp F &kp R &kp A &kp N &kp AT &kp G &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
+            bindings
+                = <&kp D &kp E &kp S &kp A &kp N &kp F &kp R &kp A &kp N>
+                , <&kp AT>
+                , <&kp G &kp M &kp A &kp I &kp L>
+                , <&kp DOT>
+                , <&kp C &kp O &kp M>
+                ;
         )
         ZMK_MACRO(unina_mail,
             tap-ms = <30>;
-            bindings = <&kp F &kp R &kp A &kp N &kp C &kp E &kp S &kp C &kp O &kp DOT &kp D &kp E &kp S &kp A &kp N &kp T &kp I &kp S &kp KP_N2 &kp AT &kp S &kp T &kp U &kp D &kp E &kp N &kp T &kp I &kp DOT &kp U &kp N &kp I &kp N &kp A &kp DOT &kp I &kp T>;
+            bindings
+                = <&kp F &kp R &kp A &kp N &kp C &kp E &kp S &kp C &kp O>
+                , <&kp DOT>
+                , <&kp D &kp E &kp S &kp A &kp N &kp T &kp I &kp S &kp KP_N2>
+                , <&kp AT>
+                , <&kp S &kp T &kp U &kp D &kp E &kp N &kp T &kp I>
+                , <&kp DOT>
+                , <&kp U &kp N &kp I &kp N &kp A>
+                , <&kp DOT>
+                , <&kp I &kp T>
+                ;
         )
     };
 
